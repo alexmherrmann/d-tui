@@ -100,7 +100,7 @@ public class TDirTreeItem : TTreeItem {
 	    if (baseName(name)[0] == '.') {
 		continue;
 	    }
-	    if (!isDir(DirEntry(name))) {
+	    if (!isDir(name)) {
 		continue;
 	    }
 
